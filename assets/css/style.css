@@ -174,3 +174,87 @@ h4 {
 #sobre_texto{
     margin-left: 30px;
 }
+
+/* ESTILIZAÇÃO DA SEÇÃO CONTATO */
+.contato_container {
+    max-width: 1120px;
+    margin: 64px auto 32px;
+    padding: 0 32px;
+
+    display: grid;              
+    grid-template-columns: repeat(auto-fill, 518px);
+    justify-content: center;    
+    align-items: center;       
+    gap: 20px;  
+}
+
+.contato_container h4 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 16px 0;
+}
+
+.contato_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+
+    margin: 64px 0 0 0;
+    font-size: 20px;
+}
+
+.contato_content p {
+    display: block;
+    text-align: justify;
+}
+
+/* Estilização da Seção Redes Sociais */
+.social_container {
+    display: flex;
+    justify-content: space-evenly; 
+    margin: 32px 0 0 0;
+    width: 320px;
+}
+
+.social_icon:hover {  
+    filter: brightness(0) saturate(100%) invert(28%) sepia(26%) saturate(4087%) hue-rotate(242deg) brightness(94%) contrast(103%);
+}
+
+/* Estilização da Seção Formulário */
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0px 0px 0px;
+    padding: 24px;
+
+}
+
+form label{
+    font-size: 20px;
+}
+
+form input, textarea{
+    margin: 8px 0 16px;
+    padding: 8px;
+    border-radius: 14px;
+    border: none;
+    font-weight: bold;
+
+}
+
+form button{
+    background-color: var(--gray-200);
+}
+
+/* ESTILIZAÇÃO DA SEÇÃO RODAPÉ */
+footer {
+    margin: 0;
+    padding: 32px;
+    color: var(--white);
+    background-color: var(--purple-500);
+    filter: opacity(0.9);
+    font-weight: bold;
+    text-align: center;
+}
